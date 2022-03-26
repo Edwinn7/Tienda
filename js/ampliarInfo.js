@@ -21,5 +21,7 @@ export function ampliarInfo(event){
         let descripscion=document.getElementById("descInfo")
         descripscion.textContent=producto.descripscion
         
+        return producto
+        
     }
 }
